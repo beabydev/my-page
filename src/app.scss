@@ -1,0 +1,13 @@
+body {
+    margin: 0;
+}
+
+@keyframes borderAnimation {
+    0% {
+        width: 0; // Bắt đầu với độ dài border-bottom là 0
+    }
+
+    100% {
+        width: 100%; // Kết thúc với độ dài border-bottom là 100%
+    }
+}
